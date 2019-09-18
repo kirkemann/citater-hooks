@@ -17,7 +17,7 @@ const AddCites = ({addCites}) => {
             <input type="text" value={citats} onChange={(e) => setCitats(e.target.value)}/>
             <label>Forfatter:</label>
             <input type="text" value={Forfatter} onChange={(e) => setForfatter(e.target.value)}/>
-            <input type="submit" value="Tilføj Citat" className="btn" />
+            <input type="submit" value="Tilføj Citat" className="btn orange" />
         </form>
     )
 }

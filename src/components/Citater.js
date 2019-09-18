@@ -26,7 +26,7 @@ const Citater = () => {
                             <h4>{citat.Overskrift}</h4>
                             <i>{citat.citats}</i>
                             <b>{citat.Forfatter}</b><br />
-                            <button className="btn" onClick={() => {deleteCite(citat.id)}}>Slet Citat</button>
+                            <button className="btn orange" onClick={() => {deleteCite(citat.id)}}>Slet Citat</button>
                         </div>
                     );
                 })}
