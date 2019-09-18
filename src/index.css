@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.citater{
+  margin-bottom: 50px;
+}
+button{
+  display: block;
+  margin: 20px 0 0;
+}
+i{
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+h1{
+  margin-bottom: 50px;
+}
+label{
+  font-size: 20px;
+  color: #000000;
+}
+#nav{
+  text-align: center;
+}
